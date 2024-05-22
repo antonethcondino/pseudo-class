@@ -1,0 +1,47 @@
+button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, font-size 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+button:active {
+    font-size: 1.1em; 
+    color: #ff5c00;
+}
+
+
+input {
+    border: 1px solid #ccc; 
+    padding: 5px 10px;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+input:focus {
+    border-color: #007bff; 
+}
+
+input::placeholder {
+    color: #aaa; 
+}
+
+a {
+    color: #007bff; 
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+a:hover {
+    color: #0056b3; 
+    text-decoration: underline; 
+}
+
+a:active {
+    font-weight: bold; 
+}
